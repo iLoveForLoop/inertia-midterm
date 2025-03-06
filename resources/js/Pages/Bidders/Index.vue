@@ -23,7 +23,7 @@ const filteredBidders = computed(() => {
 <template>
     <MainLayout>
 
-        <div class="w-full bg-gray-100 p-4 flex justify-between items-center border-b border-gray-200">
+        <div class="w-full bg-gray-100 p-4 flex justify-between items-center border-b border-gray-200 rounded-xl">
             <h1 class="text-xl font-semibold text-gray-800">Bidders</h1>
             <input type="search" v-model="filter" placeholder="Search by name..."
                 class="w-64 p-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent" />
